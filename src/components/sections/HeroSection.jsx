@@ -181,7 +181,7 @@ const HeroSection = () => {
             <motion.button
               whileHover={{ y: -5 }}
               whileTap={{ scale: 0.7 }}
-              onClick={() => scrollToSection("work")}
+              onClick={() => scrollToSection("projects")}
               className="bg-blue-500 hover:bg-blue-600 cursor-pointer text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300"
             >
               View Work
@@ -229,7 +229,7 @@ const HeroSection = () => {
           {/* Tech Stack Mobile */}
           <motion.div
             varaints={itemVariants}
-            className="flex justify-center items-center space-x-6 text-xs uppercase tracking-widest flex-wrap"
+            className="flex justify-center items-center gap-x-6 gap-y-5 text-xs uppercase tracking-widest flex-wrap"
           >
             <span className={isDarkMode ? "text-gray-400" : "text-gray-600"}>
               React
@@ -307,7 +307,7 @@ const HeroSection = () => {
             <motion.button
               whileHover={{ y: -5 }}
               whileTap={{ scale: 0.7 }}
-              onClick={() => scrollToSection("work")}
+              onClick={() => scrollToSection("projects")}
               className="bg-blue-500 hover:bg-blue-600 cursor-pointer text-white px-8 py-4 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300"
             >
               View Work
