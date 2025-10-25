@@ -14,11 +14,13 @@ import { LuBrain } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 
-import Project_IMG5 from "../assets/images/foot-locka.png";
+import Project_IMG1 from "../assets/images/trizzy.png";
 import Project_IMG2 from "../assets/images/Linkin.png";
 import Project_IMG3 from "../assets/images/solo-haven.png";
-import Project_IMG1 from "../assets/images/trizzy.png";
 import Project_IMG4 from "../assets/images/your-guitar.png";
+import Project_IMG5 from "../assets/images/foot-locka.png";
+import Project_IMG6 from "../assets/images/web-design-alt.png";
+import Project_IMG7 from "../assets/images/snikerin.png";
 
 export const SKILLS_CATEGORY = [
   {
@@ -109,7 +111,7 @@ export const PROJECTS = [
     image: Project_IMG1,
     tags: ["React", "Vite", "Tailwind CSS", "Node.js", "MongoDB"],
     liveUrl: "https://rmt56-trizzy.web.app/",
-    featured: true,
+    featured: false,
     category: "Full Stack",
   },
   {
@@ -120,7 +122,7 @@ export const PROJECTS = [
     image: Project_IMG3,
     tags: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS"],
     liveUrl: "https://solo-haven.vercel.app/",
-    featured: true,
+    featured: false,
     category: "Full Stack",
   },
   {
@@ -131,7 +133,7 @@ export const PROJECTS = [
     image: Project_IMG4,
     tags: ["React", "Express", "PostgreSQL", "Tailwind CSS", "Gemini AI"],
     liveUrl: "https://yourguitar.frenval.cloud/login",
-    featured: true,
+    featured: false,
     category: "Full Stack",
   },
   {
@@ -156,6 +158,32 @@ export const PROJECTS = [
     liveUrl: "https://footlocka.frenval.cloud/",
     featured: false,
     category: "Full Stack",
+  },
+  {
+    id: 6,
+    title: "ALT Web Prototype",
+    description:
+      "Designed the desktop web prototype of Aliansi Lintas Teknologi (ALT) using Figma. Created wireframes and detailed layouts for pages like Homepage, About, Services, Clients, Career, and Partners, including a CMS interface for content management.",
+    image: Project_IMG6,
+    tags: ["Figma"],
+    liveUrl:
+      "https://www.figma.com/proto/yefyotklqeRYw0y5f8mW5T/UI-design-ALT?node-id=3-149&t=BC3aJlNhnUYNEmdD-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A149&hide-ui=1",
+    liveUrl2:
+      "https://www.figma.com/proto/yefyotklqeRYw0y5f8mW5T/UI-design-ALT?node-id=249-17&t=AvSiKX8LacbsfhhA-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A149&hide-ui=1",
+    featured: false,
+    category: "Web Design",
+  },
+  {
+    id: 7,
+    title: "Snikerin Ecommerce",
+    description:
+      "An interactive and responsive sneaker e-commerce website built with HTML, CSS, and JavaScript, showcasing adaptive layouts and engaging visuals.",
+    image: Project_IMG7,
+    tags: ["HTML", "CSS", "JavaScript"],
+    liveUrl:
+      "https://axxe40.github.io/responsive-website-view-Snikerin-ecommerce/",
+    featured: false,
+    category: "Responsive Web Design",
   },
 ];
 

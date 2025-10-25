@@ -65,7 +65,7 @@ const HeroSection = () => {
   <motion.section
     id="home"
     style={{ y: heroY }}
-    className="min-h-screen flex items-center justify-center pt-8"
+    className="min-h-screen flex items-center justify-center pt-8 select-none"
   >
     <div className="absolute inset-0 overflow-hidden">
       <motion.div
